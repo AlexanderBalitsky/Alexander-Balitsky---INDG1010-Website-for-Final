@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfcf7;
+    color: #333;
+}
+
+header {
+    background-color: #4a7c59;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;      
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+}
+
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #6aa27e;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #4a7c59;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    scroll-margin-top: 20px;
+}
+
+section h2 {
+    color: #4a7c59;
+    margin-top: 1rem;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #e5e0d6;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #4a7c59;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+footer {
+    background-color: #4a7c59;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+    }
+}
